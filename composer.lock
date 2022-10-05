@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa01d412c53ce33ebcf60b6fe2316dc0",
+    "content-hash": "f38366966a76e38be33efb3388832557",
     "packages": [
         {
             "name": "brick/math",
@@ -2720,16 +2720,23 @@
         {
             "name": "pandawa/view-bundle",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pandawa/view-bundle.git",
+                "reference": "6ef89499f463aa8cb7d9abcc1b04a9f357848ef5"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/iqbalmaulana/Codes/pandawa/pandawa/src/Bundle/ViewBundle",
-                "reference": "f9b02de631f024ee30b1cc5927d7016484966b84"
+                "type": "zip",
+                "url": "https://api.github.com/repos/pandawa/view-bundle/zipball/6ef89499f463aa8cb7d9abcc1b04a9f357848ef5",
+                "reference": "6ef89499f463aa8cb7d9abcc1b04a9f357848ef5",
+                "shasum": ""
             },
             "require": {
                 "illuminate/view": "^9.0",
                 "pandawa/foundation-bundle": "^5.0",
                 "php": ">=8.1"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2756,9 +2763,11 @@
                 }
             ],
             "description": "The Laravel View bridge bundle",
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "source": "https://github.com/pandawa/view-bundle/tree/master",
+                "issues": "https://github.com/pandawa/view-bundle/issues"
+            },
+            "time": "2022-10-03T12:31:01+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -8127,12 +8136,14 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "pandawa/view-bundle": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
